@@ -1,12 +1,44 @@
 /**
- * Source code for Pronto Woven coding test in JAVA
- * 
+ * Source code for Pronto Woven coding test in JAVA.
+ * This code asks the user to input commands to control a robot and then outputs the distance (in units) the robot has travelled.
+ *
  * @author Arslan Rashid
- * @date 7/10/2019 
- * @version (1.01) 
+ * @date [7/10/2019] 
+ * @version [1.01] 
  * 
  */
  
  import java.util.Scanner;
  
+ public class robot{
  
+  private int countX;
+  private int countY;
+  
+ public robot{
+ 
+ countX = 0;
+ countY = 0;
+ 
+ }
+ 
+ public class menu{
+     System.out.println("Welcome to Robot's control interface!");
+     System.out.println("Use the following commands to move the robot and get the shortest distance from its current position 
+                        to it's starting position:");
+     
+     System.out.println("`F` - move forward 1 unit.");
+     System.out.println("`B` - move backward 1 unit.");
+     System.out.println("`R` - turn right 90 degrees.");
+     System.out.println("`L` - turn left 90 degrees.");
+     System.out.println("Please note that the commands can be one or more than one commands separated by a comma (e.g F1,B1...)");
+     
+     Scanner input = new Scanner(System.in);
+     int number = input.nextLine();
+     
+}
+ 
+ 
+ 
+ 
+ }
