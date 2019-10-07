@@ -24,6 +24,7 @@
  
  public class menu{
      System.out.println("Welcome to Robot's control interface!");
+     System.out.flush(); 
      System.out.println("Use the following commands to move the robot and get the shortest distance from its current position 
                         to it's starting position:");
      
