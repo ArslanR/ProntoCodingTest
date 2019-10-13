@@ -1,6 +1,8 @@
 # ProntoCodingTest
 This file includes Java code that is written for the coding test task for the Pronto Woven Graduate Program.
 
+This code has been tested on the compiler "BlueJ".
+
 The assumptions carried out while coding are as follows:
 
 1. The robot faces the NORTH (0) direction as the initial direction.
